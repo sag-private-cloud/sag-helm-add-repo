@@ -1,0 +1,10 @@
+name: "Add helm repository action"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Add helm repository
+      shell: bash
+      run: |
+        helm repo add softwareag https://sag-private-cloud.github.io/private-cloud-helm-charts
+        helm repo update

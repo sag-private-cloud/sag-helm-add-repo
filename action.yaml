@@ -6,5 +6,5 @@ runs:
     - name: Add helm repository
       shell: bash
       run: |
-        helm repo add softwareag https://sag-private-cloud.github.io/private-cloud-helm-charts
+        helm repo add webMethods https://sag-private-cloud.github.io/private-cloud-helm-charts
         helm repo update

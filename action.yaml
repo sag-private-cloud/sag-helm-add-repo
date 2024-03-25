@@ -1,4 +1,4 @@
-name: "Add helm repository action"
+name: "Add webMethods Helm repository action"
 
 runs:
   using: "composite"

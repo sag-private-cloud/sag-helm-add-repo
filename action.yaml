@@ -3,8 +3,8 @@ name: "Add webMethods Helm repository action"
 runs:
   using: "composite"
   steps:
-    - name: Add helm repository
+    - name: Add webMethods Helm repository
       shell: bash
       run: |
-        helm repo add webMethods https://sag-private-cloud.github.io/private-cloud-helm-charts
+        helm repo add webMethods https://charts.webmethods.io
         helm repo update

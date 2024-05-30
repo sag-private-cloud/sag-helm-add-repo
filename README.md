@@ -4,5 +4,5 @@ Github Action for adding webMethods Helm Chart repository
 ## Example
 ```yml
 - name: Add webMethods Helm Charts repository
-  uses: sag-private-cloud/sag-helm-add-repo@v3
+  uses: wm-private-cloud/wm-helm-add-repo@v3
 ```
